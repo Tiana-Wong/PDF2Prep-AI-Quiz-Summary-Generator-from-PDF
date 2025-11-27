@@ -1,0 +1,157 @@
+{
+  "filename": "GAME2016 L6b - 2D Polar Coordinate Systems.pdf",
+  "file_stem": "GAME2016 L6b - 2D Polar Coordinate Systems",
+  "metadata": {
+    "pages": 23,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 6\nPolar coordinate systems\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhy Use Polar Coordinates?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaSome examples where polar coordinates are preferable \nto Cartesian coordinates?",
+      "options": [
+        "A) where",
+        "B) examples",
+        "C) polar",
+        "D) coordinates"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 3]\nWhy Use Polar Coordinates?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "[Page 4]\nWhy Use Polar Coordinates?",
+      "options": [
+        "A) Why",
+        "B) 4]",
+        "C) Use",
+        "D) Polar"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThey\u2019re better for humans ( eg?",
+      "options": [
+        "A) for",
+        "B) better",
+        "C) humans",
+        "D) ("
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u201cI live 22 miles NNE \nof Dallas, TX\u201d)\n\u25aaThey\u2019re useful in video games\n\u25aaCameras \n\u25aaTurrets \n\u25aaPosition the assassin\u2019s arms\n\u25aaSometimes we even use 3D spherical coordinates \nfor locating things on the globe\n\u25aaLatitude and longitude?",
+      "options": [
+        "A) 22",
+        "B) live",
+        "C) miles",
+        "D) NNE"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L6b - 2D Polar Coordinate Systems.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 6\nPolar coordinate systems\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhy Use Polar Coordinates?\n\u25aaSome examples where polar coordinates are preferable \nto Cartesian coordinates. \n\u25aa2D polar coordinates.\nGAME2016 Mathematical",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "also ambiguous. Clearly r = 0, but what value of \u03b8",
+      "\u25aaComputing polar coordinates ( r, \u03b8) from Cartesian",
+      "y = 0 using",
+      "all of the polar coordinates that are aliases for ( r, \u03b8)",
+      "\u25aaA polar coordinate pair (r, \u03b8) is in canonical form if",
+      "angle is usually called \u03b8.",
+      "1.If r = 0, then assign \u03b8 = 0.",
+      "x = r cos \u03b8",
+      "show lines of constant \u03b8, consisting of points that",
+      "3.If \u03b8 \u2264 180\u00b0, then add 360 \u00b0 until \u03b8 >  \u2013180\u00b0",
+      "add a multiple of 360 \u00b0 to \u03b8.  Thus ( r, \u03b8) and ( r, \u03b8 +",
+      "equation for",
+      "\u25aaThe polar coordinate pair ( r, \u03b8)",
+      "there are infinitely many ( r, \u03b8) pairs that describe",
+      "equation:\nGAME2016 Mathematical Foundation of Game Design and Animation",
+      "Cartesian coordinates) is ambiguous. Is \u03b8 equal",
+      "\u25aaWe can also generate an alias by adding 180 \u00b0 to \u03b8",
+      "2.If r < 0, then negate r, and add 180 \u00b0 to \u03b8.",
+      "y = r sin \u03b8",
+      "x = 0, then the division is undefined"
+    ],
+    "applications": [
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 14]\nAliasing\n\u25aaIn fact, for any given point, there are infinitely many \npolar coordinate pairs that can be used to describe \nthat point"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 6",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Coordinate differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

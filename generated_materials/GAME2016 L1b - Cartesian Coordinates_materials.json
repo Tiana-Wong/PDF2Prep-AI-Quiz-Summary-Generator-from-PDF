@@ -1,0 +1,158 @@
+{
+  "filename": "GAME2016 L1b - Cartesian Coordinates.pdf",
+  "file_stem": "GAME2016 L1b - Cartesian Coordinates",
+  "metadata": {
+    "pages": 37,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 1\nCartesian Coordinate Systems\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aa1D Mathematics\n\u25aa2D Cartesian mathematics\n\u25aa3D Cartesian mathematics\n\u25aaAngles and Trigonometric functions\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 3]\n1D Mathematics\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 4]\nIntroduction\n\u25aa3D math is all about measuring\n\u25aaLocations\n\u25aaDistances\n\u25aaAngles \n\u25aaprecisely and mathematically in 3D space?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThe most frequently used framework to perform \nsuch calculations using a computer is called the \nCartesian coordinate system?",
+      "options": [
+        "A) frequently",
+        "B) most",
+        "C) used",
+        "D) framework"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nRen\u00e9 Descartes, 1596 - 1650\n\u25aaCartesian mathematics was \ninvented by Ren\u00e9 Descartes \n(1596 \u20131650)\n\u25aaFrench philosopher, physicist, \nphysiologist, and mathematician?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaCartesian mathematics is a \nunification of algebra and \ngeometry?",
+      "options": [
+        "A) is",
+        "B) mathematics",
+        "C) a",
+        "D) unification"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\nSource?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaCorresponding to short, int, float, and double on a computer \n(with a limited precision)?",
+      "options": [
+        "A) short,",
+        "B) to",
+        "C) int,",
+        "D) float,"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L1b - Cartesian Coordinates.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 1\nCartesian Coordinate Systems\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aa1D Mathematics\n\u25aa2D Cartesian mathematics\n\u25aa3D Cartesian mathematics\n\u25aaAngles and Trigonometric functions\nGAME2016 Mathematical Foundation of Game Desig",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "cos \u03b8 = x",
+      "\u25aaThe angle \u03b8 in figure",
+      "multiply by 180/ \u03c0 (i.e., \u2248 57.29578)",
+      "\u03b8 Radians",
+      "\u25aa360\u00b0 = 2\u03c0 rad",
+      "\u25aaCircumference = 2 \u03c0r = 2\u03c01 = 2\u03c0",
+      "\u25aaTo convert an angle \u03b8 from degrees to radians , we",
+      "\u25aaThe circumference of a unit circle is 2 \u03c0 radians",
+      "cos \u03b8sin \u03b8",
+      "\u25aa\u03c0 approximately equal to 3.14159265359",
+      "\u25aaConsider the angle \u03b8",
+      "\u25aa180\u00b0 = \u03c0 rad",
+      "\u25aaTo convert an angle \u03b8 from radians to degrees , we",
+      "sin \u03b8 = y",
+      "multiply by \u03c0/180 (i.e., \u2248 0.01745329)",
+      "\u25aa2\u03c0 radians represents a complete revolution",
+      "Circumference = 2 \u03c0r = 2\u03c01 = 2\u03c0",
+      "the angle \u03b8.",
+      "\u25aaE.g., with \u03b8 = 90, \u03b8 * \u03c0/180 = 90 * \u03c0/180 \u2248 1.5707961 rad",
+      "\u25aaE.g., with \u03b8 = 1.5 rad, \u03b8 * 180/ \u03c0 = 1.5 * 180/ \u03c0 \u2248 85.94367 \u00b0"
+    ],
+    "applications": [
+      "\u25aaThe most frequently used framework to perform \nsuch calculations using a computer is called the \nCartesian coordinate system",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 25]\nAngles and Trigonometric \nfunctions\n[Page 26]\nOdds and Ends of Math Used\n\u25aaSummation and product notation:\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 27]\nAngles\n\u25aaAn angle  measures an amount of rotation  in the \nplane"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 1",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Coordinate differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

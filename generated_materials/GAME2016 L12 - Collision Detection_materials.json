@@ -1,0 +1,149 @@
+{
+  "filename": "GAME2016 L12 - Collision Detection.pdf",
+  "file_stem": "GAME2016 L12 - Collision Detection",
+  "metadata": {
+    "pages": 79,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 12\nCollision Detection\n\u00a9 P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhat is Collision Detection\n\u25aaUseful definitions?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaGiven two geometric objects, determine if they \noverlap?",
+      "options": [
+        "A) geometric",
+        "B) two",
+        "C) objects,",
+        "D) determine"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaTypically, at least one of the objects is a set of \ntriangles?",
+      "options": [
+        "A) least",
+        "B) at",
+        "C) one",
+        "D) of"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaRays/lines\n\u25aaPlanes\n\u25aaPolygons\n\u25aaFrustums\n\u25aaSpheres\n\u25aaCurved surfaces\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nWhen to useit\n\u25aaOften in simulations?",
+      "options": [
+        "A) \u25aaPolygons",
+        "B) \u25aaPlanes",
+        "C) \u25aaFrustums",
+        "D) \u25aaSpheres"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaObjects move \u2013find when they hit something \nelse\n\u25aaOther examples?",
+      "options": [
+        "A) \u2013find",
+        "B) move",
+        "C) when",
+        "D) they"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaUsually , needs to be fast?",
+      "options": [
+        "A) needs",
+        "B) ,",
+        "C) to",
+        "D) be"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L12 - Collision Detection.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 12\nCollision Detection\n\u00a9 P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr.Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhat is Collision Detection\n\u25aaUseful definitions: lines and rays\n\u25aaBounding Spheres and Circles\n\u25aaBounding Boxes\n\u25aaCollision Testing\n\u25aaFinal Considerations\nGAME20",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Collision: AABB, sphere, ray-casting",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "n= [ a  b], p= [ x  y] and use",
+      "by= d",
+      "p= [ x y z ]",
+      "p0= [ x0   y0   z0 ]",
+      "d = 0",
+      "n= d",
+      "d= [ \uf044x  \uf044y  \uf044z ]"
+    ],
+    "applications": [
+      "\u25aaApplied to lots of objects, often in real -time \napplications",
+      "[Page 22]\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 23]\nSpheres in Collision Detection\n\u25aaA bounding sphere is often used in collision \ndetection for fast rejection because the equations \nfor intersection with a sphere are simple",
+      "\u25aaA bounding sphere can be used for an object \nregardless of the orientation of the object",
+      "Expanding this, if p= [ x y z ]:\n(x\u2013cx)2+ (y\u2013cy)2= r2(2D circle )\n(x\u2013cx)2+ (y\u2013cy)2+ (z\u2013cz)2= r2(3D sphere )\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 26]\nBounding Boxes\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 27]\nTypes of Bounding Box\n\u25aaLike spheres, bounding boxes are also used in \ncollision detection",
+      "\u25aaCan be efficient for some \napplications\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 37]\nCollision Testing\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 38]\nTesting for Collision\n\u25aaWill depend on type of objects and bounding \nvolumes"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 12",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Collision differs from Vector",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Vector to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

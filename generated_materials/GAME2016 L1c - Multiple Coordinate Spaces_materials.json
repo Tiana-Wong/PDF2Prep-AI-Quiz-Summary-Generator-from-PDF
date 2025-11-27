@@ -1,0 +1,139 @@
+{
+  "filename": "GAME2016 L1c - Multiple Coordinate Spaces.pdf",
+  "file_stem": "GAME2016 L1c - Multiple Coordinate Spaces",
+  "metadata": {
+    "pages": 42,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 1\nCoordinate spaces\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhy multiple coordinate spaces?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaCamera Space\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nWhy Multiple Coordinate \nSpaces?",
+      "options": [
+        "A) GAME2016",
+        "B) Space",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "[Page 4]\nWhy Multiple Coordinate Spaces?",
+      "options": [
+        "A) Why",
+        "B) 4]",
+        "C) Multiple",
+        "D) Coordinate"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaSome things become easier in the correct \ncoordinate space?",
+      "options": [
+        "A) become",
+        "B) things",
+        "C) easier",
+        "D) in"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThere is some historical precedent for this \nobservation (next slide)?",
+      "options": [
+        "A) some",
+        "B) is",
+        "C) historical",
+        "D) precedent"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaWe can leave the details of transforming between \ncoordinate spaces to the graphics hardware?",
+      "options": [
+        "A) leave",
+        "B) can",
+        "C) the",
+        "D) details"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L1c - Multiple Coordinate Spaces.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 1\nCoordinate spaces\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaWhy multiple coordinate spaces?\n\u25aaSome useful coordinate spaces.\n\u25aaCoordinate space transformations.\n\u25aaCamera Space\nGAME2016 Mathematical Foundation of Game Design",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Collision: AABB, sphere, ray-casting",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [],
+    "applications": [
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 11]\nCamera Space\n\u25aaObject space for the viewer, \nrepresented by a camera, \nused to project 3D space \nonto screen space\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 12]\nCamera Space Terminology\n\u25aaFrustum : the pyramid of \nspace seen by the \ncamera\n\u25aaClipping : objects partially \non screen\n\u25aaOcclusion : objects \nhidden behind another \nobject\n\u25aaVisibility : inside or \noutside of frustum, \noccluded, clipped\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 13]\nUpright Space\n\u25aaUpright space is in a sense \u201chalfway\u201d between \nworld space and object space",
+      "\u25aaWhich brings us to coordinate space \ntransformations \u2026\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 19]\nCoordinate Space \nTransformations\n[Page 20]\nCoordinate Space Transformation\n\u25aaTwo important types of transformation used to \ntransform one coordinate space into another:\n\u25aaTranslation\n\u25aaChanges position in space \n\u25aaGives new location of origin\n\u25aaRotation \n\u25aaChanges orientation in space \n\u25aaGives new directions of axes\n\u25aaWhich one comes first"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 1",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Coordinate differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

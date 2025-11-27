@@ -1,0 +1,158 @@
+{
+  "filename": "GAME2016 L2a - Vectors.pdf",
+  "file_stem": "GAME2016 L2a - Vectors",
+  "metadata": {
+    "pages": 72,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 2\nVectors\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaMathematical properties of vectors?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaConnecting the mathematical definition with the \ngeometric definition?",
+      "options": [
+        "A) mathematical",
+        "B) the",
+        "C) definition",
+        "D) with"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaFundamental vector calculations\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nMathematical Definition\nand notation\n[Page 4]\nVectors and Scalars\n\u25aaAn \u201cordinary number \u201d is called a scalar?",
+      "options": [
+        "A) calculations",
+        "B) vector",
+        "C) GAME2016",
+        "D) Mathematical"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaAlgebraic definition of a vector ?",
+      "options": [
+        "A) of",
+        "B) definition",
+        "C) a",
+        "D) vector"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaVector dimension  is the number of numbers in the \nlist \n\u25aaThe dimension of the vector in the example is 3?",
+      "options": [
+        "A) is",
+        "B) dimension",
+        "C) the",
+        "D) number"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaTypically, we use dimension 2 for 2D work, dimension 3 \nfor 3D work?",
+      "options": [
+        "A) use",
+        "B) we",
+        "C) dimension",
+        "D) 2"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L2a - Vectors.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 2\nVectors\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaMathematical properties of vectors.\n\u25aaGeometric properties of vectors.\n\u25aaConnecting the mathematical definition with the \ngeometric definition.\n\u25aaVectors vs points.\n\u25aaFundame",
+    "key_concepts": [
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "negation = multiplying by the scalar \u20131",
+      "Direction = orientation",
+      "b = \u2013(b \u2013 a)",
+      "Roman or Greek letters in italics: a, b, x, y, z, \u03b8, \u03b1, \u03c9,",
+      "v1 = 6, v2 = 19, v3 = 42",
+      "v = v",
+      "b = b + a",
+      "ka = b, then b1=ka1, etc",
+      "b = c, then c1 = a1 + b1, etc",
+      "b = a + (\u2013 b)",
+      "Magnitude = size",
+      "v = -v + v = 0",
+      "v = [6, 19, 42],",
+      "b = 0, then a is parallel to b",
+      "Formula\n[Page 49]",
+      "hypothenuse=\u22ef=acos \u0ddca\u2219\u0de0b"
+    ],
+    "applications": [
+      ", 55mph)\n\u25aaVectors  are used to express relative things",
+      "\u25aaScalars  are used to express absolute things",
+      "\u25aaSo, a vector can be used to \nrepresent a point",
+      "\u25aaYou need to deal with approximation errors and \n\u201caliasing\u201d\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 48]\nThe Distance Formula\n[Page 49]\nApplication: Computing Distance\n\u25aaTo find the geometric distance between two points \na and b",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 53]\nSign of Dot Product\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 54]\nDot Product: Geometry\n\u25aaDot product can be used to find the angle between \ntwo vectors a and b"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Vector to the values 1, 2",
+      "solution": "Refer to the Vector formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Animation differs from Coordinate",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Coordinate to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

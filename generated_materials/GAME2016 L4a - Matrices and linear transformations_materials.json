@@ -1,0 +1,142 @@
+{
+  "filename": "GAME2016 L4a - Matrices and linear transformations.pdf",
+  "file_stem": "GAME2016 L4a - Matrices and linear transformations",
+  "metadata": {
+    "pages": 42,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 4\nMatrices and Linear Transformations\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaIntroduction to matrices for primitive linear \ntransformations \n\u25aaRotation\n\u25aaScaling\n\u25aaOrthographic projection\n\u25aaReflection\n\u25aaShearing\n\u25aaComplex transformations and matrix \nmultiplication\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nMatrices and Linear \nTransformations\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 4]\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 5]\nRotation\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 6]\nReminder?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaGiven an arbitrary matrix, visualize the \ntransformation by its effect on the standard basis \nvectors \u2013 the rows of the matrix?",
+      "options": [
+        "A) arbitrary",
+        "B) an",
+        "C) matrix,",
+        "D) visualize"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaGiven an arbitrary linear transformation, create \nthe matrix by visualizing what it does to the \nstandard basis vectors and using that for the rows \nof the matrix?",
+      "options": [
+        "A) arbitrary",
+        "B) an",
+        "C) linear",
+        "D) transformation,"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 7]\n2D Rotation Around Point\nGAME2016 Mathematical Foundation of Game Design and AnimationBefore After\n\n[Page 8]\nIt\u2019s All About Rotating Basis Vectors?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 9]\nConstruct Matrix from Basis Vectors\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 10]\n3D Rotation About Cardinal Axis\n\u25aaIn 3D, rotation occurs about an axis rather than a \npoint as in 2D?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThe most common type of rotation is a simple \nrotation about one of the cardinal axes?",
+      "options": [
+        "A) common",
+        "B) most",
+        "C) type",
+        "D) of"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L4a - Matrices and linear transformations.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 4\nMatrices and Linear Transformations\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaIntroduction to matrices for primitive linear \ntransformations \n\u25aaRotation\n\u25aaScaling\n\u25aaOrthographic projection\n\u25aaReflection\n\u25aaShearing\n\u25aaComplex tra",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "formula\n\u25aaDetails in the textbook"
+    ],
+    "applications": [
+      "\u25aaFor game programmers it is not used very often",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 27]\nProjection Matrices\n\u25aaFor completeness, we present the matrices for \nthese transformations:\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 28]\nReflection\n[Page 29]\nReflection\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 30]\nReflection in 2D\n\u25aaReflection can be accomplished by applying a scale \nfactor of -1"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 4",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Matrix differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

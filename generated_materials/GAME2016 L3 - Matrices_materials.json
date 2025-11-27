@@ -1,0 +1,158 @@
+{
+  "filename": "GAME2016 L3 - Matrices.pdf",
+  "file_stem": "GAME2016 L3 - Matrices",
+  "metadata": {
+    "pages": 52,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 3\nMatrices\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaBasic properties and operations of matrices \n\u25aaMathematical perspective?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 4]\nMatrix?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaMatrix dimension  is the width  and height  of the \ntable, w x h?",
+      "options": [
+        "A) is",
+        "B) dimension",
+        "C) the",
+        "D) width"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaTypically , we use dimensions 2 x 2 for 2D work, and \n3 x 3 for 3D work?",
+      "options": [
+        "A) we",
+        "B) ,",
+        "C) use",
+        "D) dimensions"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaWe\u2019ll find a use for 4 x 4 matrices also?",
+      "options": [
+        "A) a",
+        "B) find",
+        "C) use",
+        "D) for"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 6]\nMatrix Components\n\u25aaEntries are numbered by row and column\n\u25aaeg?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L3 - Matrices.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 3\nMatrices\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaBasic properties and operations of matrices \n\u25aaMathematical perspective. \n\u25aaGeometrical perspective.\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]",
+    "key_concepts": [
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "cr = 0",
+      "C = A(BC)",
+      "v = A(Bv)",
+      "B =A(kB)",
+      "C = AB",
+      "T = M for all",
+      "T = BTAT",
+      "C = [cij], where cij is the dot product of the ith",
+      "M = vM + wM",
+      "equation as",
+      "DT = D for all diagonal matrices D (including the",
+      "aM = b, we say that vector a is transformed  by",
+      "q = [0 1 0]",
+      "\u25aaThen C = [cij], where cij is the dot product of the ith",
+      "q = [qx qy qz]",
+      "r = [0 0 1]",
+      "IM = MI = M for all",
+      "r = [rx ry rz]",
+      "T = MnT \u2026M3TM2TM1T",
+      "V = [ x y z]"
+    ],
+    "applications": [],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Matrix to the values 1, 3",
+      "solution": "Refer to the Matrix formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Animation differs from Vector",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Vector to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

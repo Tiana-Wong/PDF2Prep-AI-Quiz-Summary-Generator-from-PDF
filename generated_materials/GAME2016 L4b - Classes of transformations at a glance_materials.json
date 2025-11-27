@@ -1,0 +1,139 @@
+{
+  "filename": "GAME2016 L4b - Classes of transformations at a glance.pdf",
+  "file_stem": "GAME2016 L4b - Classes of transformations at a glance",
+  "metadata": {
+    "pages": 21,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 4\nClasses of transformations at a glance\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nClasses of Transformations\n\u25aaLinear transformations\n\u25aaAffine transformations\n\u25aaInvertible transformations\n\u25aaAngle preserving transformations\n\u25aaOrthogonal transformations\n\u25aaRigid body transformations\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nDisclaimer\n\u25aaWhen we discuss transformations in general, we make \nuse of the synonymous terms mapping  or function?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaA mapping is simply a rule that takes an input and \nproduces an output?",
+      "options": [
+        "A) is",
+        "B) mapping",
+        "C) simply",
+        "D) a"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaWe denote that the mapping F maps a to b by writing F(a) = b?",
+      "options": [
+        "A) that",
+        "B) denote",
+        "C) the",
+        "D) mapping"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "(Read \u201c F of a equals b?",
+      "options": [
+        "A) F",
+        "B) \u201c",
+        "C) of",
+        "D) a"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u201d) \n\u25aaWe are mostly interested in the transformations that \ncan be expressed as matrix multiplication, but others \nare possible?",
+      "options": [
+        "A) are",
+        "B) \u25aaWe",
+        "C) mostly",
+        "D) interested"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaIn this section we introduce the determinant of a \nmatrix?",
+      "options": [
+        "A) section",
+        "B) this",
+        "C) we",
+        "D) introduce"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L4b - Classes of transformations at a glance.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 4\nClasses of transformations at a glance\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nClasses of Transformations\n\u25aaLinear transformations\n\u25aaAffine transformations\n\u25aaInvertible transformations\n\u25aaAngle preserving transformations\n\u25aaOrthogona",
+    "key_concepts": [
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "M = k(aM) = kF(a)",
+      "M = aM + bM = F(a) + F(b)"
+    ],
+    "applications": [],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Transformation to the values 1, 4",
+      "solution": "Refer to the Transformation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Animation differs from Matrix",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Matrix to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

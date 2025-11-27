@@ -1,0 +1,163 @@
+{
+  "filename": "GAME2016 L6a - Homogeneous Matrices.pdf",
+  "file_stem": "GAME2016 L6a - Homogeneous Matrices",
+  "metadata": {
+    "pages": 44,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 6\nHomogeneous Matrices and General Affine Transformations\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaHomogeneous matrices\n\u25aaFrom vectors to 4 \u00d74 matrices\n\u25aaGeneral Affine Transformations in 3D\n\u25aaPerspective projection at a glance\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\n4\u00d74 Homogenous Matrices\n[Page 4]\nWhy Homogenous Matrices?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaIt will let us handle translation with a matrix \ntransformation?",
+      "options": [
+        "A) let",
+        "B) will",
+        "C) us",
+        "D) handle"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaSingle framework to work with when developing a \nsoftware system?",
+      "options": [
+        "A) to",
+        "B) framework",
+        "C) work",
+        "D) with"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nHomogenous Coordinates\n\u25aaExtend 3D into 4D?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThe 4th dimension is not \u201ctime\u201d?",
+      "options": [
+        "A) dimension",
+        "B) 4th",
+        "C) is",
+        "D) not"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThe 4th dimension is really just a trick to help the \nmath work out\n\u25aaThe 4th dimension is called w?",
+      "options": [
+        "A) dimension",
+        "B) 4th",
+        "C) is",
+        "D) really"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L6a - Homogeneous Matrices.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 6\nHomogeneous Matrices and General Affine Transformations\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaHomogeneous matrices\n\u25aaFrom vectors to 4 \u00d74 matrices\n\u25aaGeneral Affine Transformations in 3D\n\u25aaPerspective projection at a gla",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "z = -d",
+      "vRT = v(RT) = vM",
+      "w = ax + b",
+      "equation is w = qx/p",
+      "w = 1 and w = 0 so far",
+      "M = RT, so",
+      "w = 1, x = p/q",
+      "t = [\u0394x, \u0394y, \u0394z]",
+      "w = 1",
+      "w = 1 along a line to the origin, which turns out",
+      "translation vector t = [\u0394x, \u0394y, \u0394z].",
+      "q = ap + b",
+      "4\u00d74 Homogenous Matrices",
+      "w = qx/p",
+      "w = 1) for things that do",
+      "b = 0 and a = q/p",
+      "\u25aaFrom vectors to 4 \u00d74 matrices",
+      "w = 1 at the far clip plane",
+      "Equation of line is w = ax + b",
+      "M = RT"
+    ],
+    "applications": [
+      "Let M = RT, so\nv\uf0a2 = vRT = v(RT) = vM\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 25]\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 26]\nIn Reverse\n\u25aaApplying this information in reverse, we can take a \n4 x 4 matrix M and separate it into a linear \ntransformation portion, and a translation portion",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 36]\nPerspective Projection\n[Page 37]\nProjections\n\u25aaWe\u2019ve only used w = 1 and w = 0 so far",
+      "It will apply a normalizing scale factor such \nthat w = 1 at the far clip plane",
+      "Values used for \ndepth buffering will be distributed \nappropriately and maximize the precision"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 6",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Matrix differs from Transformation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Transformation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

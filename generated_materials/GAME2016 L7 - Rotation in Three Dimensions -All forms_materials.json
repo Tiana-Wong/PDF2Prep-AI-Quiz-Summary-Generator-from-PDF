@@ -1,0 +1,164 @@
+{
+  "filename": "GAME2016 L7 - Rotation in Three Dimensions -All forms.pdf",
+  "file_stem": "GAME2016 L7 - Rotation in Three Dimensions -All forms",
+  "metadata": {
+    "pages": 110,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 7\nRotation in Three Dimensions\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaOrientation, direction, and angular displacement?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaHow to express orientation?",
+      "options": [
+        "A) express",
+        "B) to",
+        "C) orientation:",
+        "D) \u25aaMatrix"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaHow to choose representation\n\u25aaQuick note on conversion\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 3]\nWhat Exactly is \u201cOrientation\u201d?",
+      "options": [
+        "A) choose",
+        "B) to",
+        "C) representation",
+        "D) \u25aaQuick"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 4]\nOrientation\n\u25aaWhat is orientation?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaA vector specifies direction, but it can also be \ntwisted?",
+      "options": [
+        "A) specifies",
+        "B) vector",
+        "C) direction,",
+        "D) but"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 5]\nThis is Important Because\n\u25aaTwisting an object changes its orientation?",
+      "options": [
+        "A) Foundation",
+        "B) Mathematical",
+        "C) of",
+        "D) Game"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L7 - Rotation in Three Dimensions -All forms.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 7\nRotation in Three Dimensions\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaOrientation, direction, and angular displacement.\n\u25aaHow to express orientation:\n\u25aaMatrix form\n\u25aaEuler angles\n\u25aaThe axis -angle and exponential map forms\n",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "v1 = [ x1 y1 z1 ] and v2 = [ x2 y2 z2 ], then",
+      "a = a1 \u2013 a0",
+      "orientation, when \u03b8 = 0 and any axis may be used.",
+      "i= \u22121",
+      "Q = [ cos \uf071/2      sin \uf071/2 n ]",
+      "t = ast, do not apply to quaternions",
+      "q = [ w ( x y z ) ]",
+      "i.e. \u03b8 = \ud835\udc1e, and",
+      "lerp( a0, a1, t) = a0 + t.\u0394a",
+      "q = [ w v ],",
+      "can be produced by negating both \u03b8 and n.",
+      "\u25aaThe two values n and \u03b8 describe an angular",
+      "ji=\u2212k,  kj=\u2212i, ik=\u2212j",
+      "t=22",
+      "formula ( lerp for",
+      "i2 = j2 = k2 = ijk = \u20131",
+      "ij=k, jk=i, ki=j",
+      "formula:\nGAME2016 Mathematical Foundation of Game Design and Animation",
+      "formula similar to  (ac\u2212bd , ad+bc)",
+      "i2 = -1"
+    ],
+    "applications": [
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 10]\nExample\n\u25aaWe've seen how a matrix can \nbe used  to transform points \nfrom one coordinate space \nto another",
+      "\u25aaIn the figure, the matrix in \nthe upper right hand  corner \ncan be used to rotate points \nfrom the object space of the \njet into upright space",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 14]\nDirection Cosines Matrix\n\u25aaThe matrix of direction cosines (dot products) of \neach pair of basis vectors, is constructed as \nfollows:\n\u25aaThese axes can be interpreted as geometric \nentities\n\u25aaIndependent from coordinates used to describe the \naxes, the rotation matrix will be the same",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 22]\nAdvantages of Matrix Form 2\nFormat used by graphics APIs",
+      "\u25aaFor example, applying a large number of  incremental changes \nto an orientation leads to large number of matrix \nmultiplications which leads to errors due to the limited \nfloating point  precision"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 7",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Matrix differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

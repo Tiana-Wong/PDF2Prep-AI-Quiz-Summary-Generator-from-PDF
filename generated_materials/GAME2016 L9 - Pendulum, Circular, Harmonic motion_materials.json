@@ -1,0 +1,138 @@
+{
+  "filename": "GAME2016 L9 - Pendulum, Circular, Harmonic motion.pdf",
+  "file_stem": "GAME2016 L9 - Pendulum, Circular, Harmonic motion",
+  "metadata": {
+    "pages": 23,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 9\nCircular, Harmonic, and Pendulum Motion\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaUnderstanding Circular Motion\n\u25aaExploring Harmonic Motion\n\u25aaAnalyzing  Pendulum Motion\n\u25aaIntegrating Motion Types in Game Design\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nCircular, Harmonic, and \nPendulum Motion in Game \nDesign and Animation\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 4]\nUnderstanding Circular \nMotion\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nUnderstanding Circular Motion\n\u25aaRealism\n\u25aaAccurate physical motions create immersive game \nworlds?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Players expect objects to behave naturally, \nenhancing their experience?",
+      "options": [
+        "A) objects",
+        "B) expect",
+        "C) to",
+        "D) behave"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaGameplay Mechanics\n\u25aaUnderstanding these motions allows designers to create \ninnovative gameplay elements?",
+      "options": [
+        "A) \u25aaUnderstanding",
+        "B) Mechanics",
+        "C) these",
+        "D) motions"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Circular platforms and \npendulum obstacles challenge players in unique ways?",
+      "options": [
+        "A) and",
+        "B) platforms",
+        "C) pendulum",
+        "D) obstacles"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaVisual Appeal\n\u25aaSmooth, natural animations based on these motions \ncaptivate players?",
+      "options": [
+        "A) \u25aaSmooth,",
+        "B) Appeal",
+        "C) natural",
+        "D) animations"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "They add life and dynamism to game \nenvironments and characters?",
+      "options": [
+        "A) life",
+        "B) add",
+        "C) and",
+        "D) dynamism"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L9 - Pendulum, Circular, Harmonic motion.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 9\nCircular, Harmonic, and Pendulum Motion\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaUnderstanding Circular Motion\n\u25aaExploring Harmonic Motion\n\u25aaAnalyzing  Pendulum Motion\n\u25aaIntegrating Motion Types in Game Design\nGAME2016 Mat",
+    "key_concepts": [
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Harmonic: oscillation, frequency, amplitude",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [],
+    "applications": [
+      "These principles are used to create \nrealistic object behaviors in games",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 17]\nAnalyzing  Pendulum Motion\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 18]\nPrinciples of Pendulum Motion\n\u25aaOscillation Dynamics\n\u25aaPendulum motion is an example of \nsimple harmonic motion\n\u25aaThe restoring force is proportional to \nthe displacement\n\u25aaThis leads to predictable oscillations \nthat can be modeled mathematically\n\u25aaEnergy Conservation\n\u25aaThe pendulum's motion illustrates \nthe conversion between potential \nand kinetic energy\n\u25aaMaximum potential energy at the \nhighest points\n\u25aaMaximum kinetic energy at the \nlowest point\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 19]\nPendulum Motion Essentials\nComponent Description Game Application\nBob Mass at the end of \nthe pendulumSwinging obstacles or \ncollectibles\nString/Rod Connects bob to \npivot pointGrappling hooks, swing \nmechanics\nAmplitude Maximum swing \nangleDifficulty adjustment in \npendulum puzzles\nPeriod Time for one \ncomplete swingTiming challenges in \nplatformers\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 20]\nPendulums in Games and Animation\n\u25aaPuzzle Elements\n\u25aaPendulums create timing -based \npuzzles",
+      "\u25aaUsed for realistic swinging actions, \nlike grappling hooks or vines"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Animation to the values 1, 9",
+      "solution": "Refer to the Animation formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Harmonic differs from Rotation",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Rotation to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}

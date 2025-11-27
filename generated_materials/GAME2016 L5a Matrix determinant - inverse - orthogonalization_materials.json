@@ -1,0 +1,150 @@
+{
+  "filename": "GAME2016 L5a Matrix determinant - inverse - orthogonalization.pdf",
+  "file_stem": "GAME2016 L5a Matrix determinant - inverse - orthogonalization",
+  "metadata": {
+    "pages": 58,
+    "title": "PowerPoint Presentation"
+  },
+  "quiz": [
+    {
+      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 5\nCourse Overview\n\u00a9P?",
+      "options": [
+        "A) GAME2016",
+        "B) 1]",
+        "C) Mathematical",
+        "D) Foundation"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "options": [
+        "A) is",
+        "B) content",
+        "C) copyright",
+        "D) protected"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaDeterminant of a matrix\n\u25aaInverse of a matrix\n\u25aaWith adjoint matrix\n\u25aaOrthogonal matrices and orthogonalization\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 3]\nDeterminant of a Matrix\n[Page 4]\nDeterminant\n\u25aaDeterminant is defined for square matrices?",
+      "options": [
+        "A) Lecturer",
+        "B) Senior",
+        "C) @HKBU",
+        "D) Department"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaDenoted | M| or det M?",
+      "options": [
+        "A) M|",
+        "B) |",
+        "C) or",
+        "D) det"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaDeterminant of a 2x2 matrix is\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 5]\n2 x 2 Example\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 6]\n3 x 3 Determinant\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 7]\n3 x 3 Example\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 8]\nTriple Product\n\u25aaIf we interpret the rows of a 3x3 matrix as three \nvectors , then the determinant  of the matrix is \nequivalent to the so-called triple product of the \nthree vectors ?",
+      "options": [
+        "A) a",
+        "B) of",
+        "C) 2x2",
+        "D) matrix"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaConsider the matrix obtained by deleting row i and \ncolumn j from M?",
+      "options": [
+        "A) matrix",
+        "B) the",
+        "C) obtained",
+        "D) by"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThis matrix size will obviously be r-1 x c-1?",
+      "options": [
+        "A) size",
+        "B) matrix",
+        "C) will",
+        "D) obviously"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "question": "\u25aaThe determinant of this submatrix , denoted M{ij} is \nknown as a minor  of M?",
+      "options": [
+        "A) of",
+        "B) determinant",
+        "C) this",
+        "D) submatrix"
+      ],
+      "answer": "A",
+      "difficulty": "medium"
+    }
+  ],
+  "summary": {
+    "title": "GAME2016 L5a Matrix determinant - inverse - orthogonalization.pdf",
+    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 5\nCourse Overview\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaDeterminant of a matrix\n\u25aaInverse of a matrix\n\u25aaWith adjoint matrix\n\u25aaOrthogonal matrices and orthogonalization\nGAME2016 Mathematical Foundation of Game Design and A",
+    "key_concepts": [
+      "\u2022 Matrix: determinant, inverse, transpose",
+      "\u2022 Animation: interpolation, keyframe, easing",
+      "\u2022 Vector: magnitude, direction, component",
+      "\u2022 Transformation: translation, scaling, shear",
+      "\u2022 Rotation: quaternion, euler angles, axis-angle",
+      "\u2022 Coordinate: cartesian, polar, spherical",
+      "\u2022 Numerical Values: "
+    ],
+    "formulas": [
+      "r3\n= 0",
+      "MMT = I",
+      "M = I",
+      "MT = M-1",
+      "vM = 0 is true only when v = 0",
+      "vI = v",
+      "r2\n= 0"
+    ],
+    "applications": [
+      "\u25aaThe determinant of the matrix can also be used to \nhelp classify the type of transformation represented by \na matrix",
+      "\u25aaThe determinant of a singular matrix is zero\n\u25aaChecking the magnitude of the determinant is the \nmost commonly used test for invertibility\n\u25aait\u2019s easier and quicker",
+      "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 34]\nExample of Matrix Inverse\n\u25aaIf:\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 35]\nGaussian Elimination\n\u25aaThere are other techniques that can be used to compute \nthe inverse of a matrix, such as Gaussian elimination",
+      "\u25aaFor arbitrary smaller order matrices like 2 x 2, 3 x 3, and 4 x \n4 used most often in geometric applications, the classical \nadjoint method is faster"
+    ],
+    "revision_tips": [
+      "1. Focus on understanding the core formulas and when to use them",
+      "2. Practice working through numerical examples",
+      "3. Understand the geometric or visual interpretation",
+      "4. Relate concepts to real-world game/animation scenarios",
+      "5. Create flashcards for key terms and definitions"
+    ]
+  },
+  "practice_problems": [
+    {
+      "number": 1,
+      "problem": "Calculate the result when applying Matrix to the values 1, 5",
+      "solution": "Refer to the Matrix formula: work through step by step"
+    },
+    {
+      "number": 2,
+      "problem": "Explain how Animation differs from Vector",
+      "solution": "Consider the definitions, properties, and applications of each"
+    },
+    {
+      "number": 3,
+      "problem": "Apply Vector to a scenario with game animation",
+      "solution": "Break down the problem using the relevant formula or definition"
+    }
+  ]
+}
