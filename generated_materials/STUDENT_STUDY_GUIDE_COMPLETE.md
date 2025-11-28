@@ -23,31 +23,50 @@
 ---
 
 ## GAME2016 L1a - Course Overview
+### Key Concepts Explained
 
-### **Key Concepts Explained**
+1. Course Foundations
+- Purpose: Understand why vectors, matrices, and transforms are the backbone of game math. They let us describe positions, motions, and relationships between objects.
+- Typical elements: vectors for movement, matrices for changing coordinate spaces, and coordinate systems for placing objects in the scene.
 
-#### **Animation**
-- **What it is:** Creating smooth motion through interpolation (smoothly blending), keyframes (key poses at specific times), and easing (controlling speed curves).
-- **In games:** NPCs walking smoothly, cameras panning, characters jumping—all using animations.
-
-#### **Vector**
-- **What it is:** A mathematical entity with magnitude (size), direction (which way), and component values (x, y, z).
-- **In games:** Representing position, velocity, forces, and directions.
-
-#### **Matrix**
-- **What it is:** A grid of numbers used to transform vectors. Key operations: determinant (property extraction), inverse (undo operation), transpose (flip rows/cols).
-- **In games:** Rotating, scaling, translating game objects in 3D space.
-
-#### **Coordinate Systems**
-- **What it is:** Different ways to describe positions. Cartesian (x, y, z), Polar (angle + distance), Spherical (angles from center).
-- **In games:** Camera coordinates, world coordinates, local object coordinates.
-
-#### **Transformation**
-- **What it is:** Changing position, size, or orientation. Three types: translation (move), scaling (resize), shear (skew).
-- **In games:** Moving NPCs, scaling UI elements, rotating objects.
+2. Practical Applications
+- Asset transforms: combining position, rotation and scale to place models in the world.
+- Pipeline awareness: how world, camera, and screen spaces connect during rendering and input handling.
 
 ---
 
+### Quiz Question & Student Answer
+
+Q1: Which of the following best explains the role of coordinate spaces in a rendering pipeline?
+Options:
+- A) They control audio mixing levels.
+- B) They allow consistent placement of objects across world, camera and screen.
+- C) They determine font sizes in UI.
+- D) They are irrelevant for rendering.
+
+Student approach:
+"Coordinate spaces map object-local positions into the world and then into camera/screen space. That matches option B." 
+
+Answer: B
+
+Explanation: Coordinate spaces are essential for transforming object-local coordinates to world coordinates and then projecting them through the camera to screen coordinates.
+
+---
+
+### Practice Problem & Student Solution
+
+Problem: Explain the steps to render a model located at local coordinates (1, 2, 0) into screen space. List the transforms applied.
+
+Student solution:
+Step 1: Apply the object's local transform (scale, rotation, translation) to move from local to model space.
+Step 2: Multiply by the world transform if the object has a parent or world offset.
+Step 3: Multiply by the camera/view matrix to convert world → camera space.
+Step 4: Multiply by projection matrix (perspective or orthographic) to convert camera → clip space.
+Step 5: Perform perspective divide (divide by w) and map to screen coordinates.
+
+Result: The model's vertex position is transformed through model → world → camera → clip → NDC → screen.
+
+---
 ## GAME2016 L1b - Cartesian Coordinates
 
 ### **Key Concepts Explained**
@@ -322,55 +341,51 @@
 ---
 
 ## GAME2016 L6a - Homogeneous Matrices
+### Key Concepts Explained
 
-### **Key Concepts Explained**
+1. Vector Operations
+- Magnitude: The length of the vector. Formula: `||v|| = √(x² + y² + z²)`
+- Dot product: Measures how aligned two vectors are. Useful for angles and projections.
+- Cross product: Produces a vector perpendicular to two input vectors. Useful for finding normals.
 
-#### **Homogeneous Coordinates**
-- **What it is:** Adding an extra coordinate (w) to represent both position and perspective.
-- **2D Example:** (x, y) becomes (x, y, w)
-- **3D Example:** (x, y, z) becomes (x, y, z, w)
-
-#### **Why This Matters**
-- Allows translation to be represented as matrix multiplication (not addition).
-- Enables perspective projection.
-- Unifies all affine transformations.
-
-#### **w = 1 vs w = 0**
-- **w = 1:** Point (position). Can be translated.
-- **w = 0:** Vector (direction). Cannot be translated.
-
-### **Practice Problem & Solution**
-
-**Problem:** *Why do homogeneous coordinates matter for game engines?*
-
-**Solution:**
-> **Key advantage:** All transformations (rotation, scale, translation) become matrix multiplications.
->
-> **Without homogeneous coords:** Need separate operations:
-> - Matrix multiply for rotation/scale
-> - Vector addition for translation
->
-> **With homogeneous coords (4×4 matrix):** Single matrix multiply handles all three.
->
-> **Game benefit:** Cleaner code, faster computation, easier to combine transforms.
+2. Vector Application
+- Representing velocity: A vector with magnitude (speed) and direction (which way)
+- Representing position: A vector from origin to a point
+- Representing forces: Wind, gravity, push—all vectors
 
 ---
 
-## GAME2016 L6b - 2D Polar Coordinate Systems
+### Quiz Question & Student Answer
 
-### **Key Concepts Explained**
+Q1: Which of the following best describes 'Vector'?
+Options:
+- A) Coordinate typically involves...
+- B) Numerical Values...
+- C) Animation...
+- D) Vector typically involves magnitude, direction and component.
 
-#### **Polar Coordinates (r, θ)**
-- **r:** Distance from origin (radius).
-- **θ:** Angle from positive X-axis (typically in degrees or radians).
+Student approach:
+"What defines a vector? It has magnitude (size), direction (which way), and component values (x, y, z). Option D is the textbook definition."
 
-#### **Conversion Formulas**
-- **Cartesian to Polar:**
-  - `r = √(x² + y²)`
-  - `θ = atan2(y, x)`
-- **Polar to Cartesian:**
-  - `x = r × cos(θ)`
-  - `y = r × sin(θ)`
+Answer: D
+
+Explanation: Vectors are defined by magnitude (length), direction (orientation), and components (x, y, z values).
+
+---
+
+### Practice Problem & Student Solution
+
+Problem: Calculate Vector Magnitude and Use It
+
+Problem:
+Given a velocity vector v = (3, 4, 0), calculate its magnitude and explain what it means in a game.
+
+Student solution:
+Step 1: Calculate magnitude using the formula `||v|| = √(x² + y² + z²)`
+`||v|| = √(3² + 4² + 0²) = √(9 + 16) = √25 = 5`
+Interpretation: The magnitude of 5 means the object is moving at speed 5 units/second.
+The direction (3, 4, 0) normalized is (0.6, 0.8, 0), meaning it's moving mostly in the +Y direction with some +X component.
+In a game: An NPC moving with this velocity travels diagonally, covering 5 units each second.
 
 #### **Aliasing Problem**
 - **Issue:** Infinitely many polar coordinates describe the same point.
