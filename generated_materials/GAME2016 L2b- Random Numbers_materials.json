@@ -7,108 +7,66 @@
   },
   "quiz": [
     {
-      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 2\nRandom numbers at a glance\n\u00a9P?",
+      "question": "Which of the following best describes 'Animation'?",
       "options": [
-        "A) GAME2016",
-        "B) 1]",
-        "C) Mathematical",
-        "D) Foundation"
+        "A) Numerical Values is an important concept in this lecture.",
+        "B) Animation typically involves interpolation, keyframe and easing.",
+        "C) A mathematical property",
+        "D) A concept related to Animation"
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Animation typically involves interpolation and keyframe and easing."
     },
     {
-      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "question": "Which of the following best describes 'Application of Numerical Values'?",
       "options": [
-        "A) is",
-        "B) content",
-        "C) copyright",
-        "D) protected"
+        "A) It is used for numerical values is an important concept in this lecture.",
+        "B) It is used for animation typically involves interpolation, keyframe and easing.",
+        "C) It is used for a concept related to numerical values",
+        "D) It is used for a mathematical property"
       ],
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "explanation": "Numerical Values refers to an important concept in this lecture."
     },
     {
-      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nRandom Number Generators\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nRandom Number Generators\n\u25aaRandom number generation is a method of producing \na sequence of numbers that lack any discernible \npattern?",
+      "question": "In a game scenario, how is 'Animation' commonly applied?",
       "options": [
-        "A) Lecturer",
-        "B) Senior",
-        "C) @HKBU",
-        "D) Department"
+        "A) For spatial computations",
+        "B) For audio processing",
+        "C) For UI layout",
+        "D) For network sync"
       ],
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
-      "question": "\u25aaRandom Number Generators (RNGs) have applications \nin a wide range of different fields such as?",
+      "question": "In a game scenario, how is 'Numerical Values' commonly applied?",
       "options": [
-        "A) Generators",
-        "B) Number",
-        "C) (RNGs)",
-        "D) have"
+        "A) For spatial computations",
+        "B) For audio processing",
+        "C) For UI layout",
+        "D) For network sync"
       ],
       "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "question": "\u25aaComputer Simulations ?",
-      "options": [
-        "A) :",
-        "B) Simulations",
-        "C) RNGs",
-        "D) help"
-      ],
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "question": "\u25aaVideo Games ?",
-      "options": [
-        "A) :",
-        "B) Games",
-        "C) RNGs",
-        "D) play"
-      ],
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "question": "This enhances the gaming experience by \nmaking each playthrough unique and engaging?",
-      "options": [
-        "A) the",
-        "B) enhances",
-        "C) gaming",
-        "D) experience"
-      ],
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 4]\nWhat is Random?",
-      "options": [
-        "A) Foundation",
-        "B) Mathematical",
-        "C) of",
-        "D) Game"
-      ],
-      "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy"
     }
   ],
   "summary": {
     "title": "GAME2016 L2b- Random Numbers.pdf",
-    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 2\nRandom numbers at a glance\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nRandom Number Generators\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nRandom Number Generators\n\u25aaRandom number generation is a method ",
+    "overview": "Lecture: L2b- Random Numbers. This lecture covers the following key concepts: - Animation typically involves interpolation, keyframe and easing. - Numerical Values is an important concept in this lecture. Students should be able to explain these concepts and apply them to simple problems and examples.",
     "key_concepts": [
-      "\u2022 Animation: interpolation, keyframe, easing",
-      "\u2022 Numerical Values: "
+      "• Animation: interpolation, keyframe, easing",
+      "• Numerical Values: "
     ],
     "formulas": [],
     "applications": [
-      "\u25aaRandom Number Generators (RNGs) have applications \nin a wide range of different fields such as:\n\u25aaCryptography : RNGs ensure that encryption keys are \nunpredictable and secure",
-      "\u25aaUncorrelated \n\u25aawith what you're interested in\n\u25aaQuantum computer systems are the only truly \nrandom\n\u25aaAs far as we know\n\u25aaPseudo RNGs are what we can achieve with normal \ncomputers\n\u25aaIt\u2019s random enough for your applications\n\u25aaSometimes we want repeatability from a random \nnumber generator (seeding)\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nPseudo RNGs\n\u25aaPRNGs usually generate very long sequences of \nrandom numbers",
+      "▪Random Number Generators (RNGs) have applications \nin a wide range of different fields such as:\n▪Cryptography : RNGs ensure that encryption keys are \nunpredictable and secure",
+      "▪Uncorrelated \n▪with what you're interested in\n▪Quantum computer systems are the only truly \nrandom\n▪As far as we know\n▪Pseudo RNGs are what we can achieve with normal \ncomputers\n▪It’s random enough for your applications\n▪Sometimes we want repeatability from a random \nnumber generator (seeding)\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 5]\nPseudo RNGs\n▪PRNGs usually generate very long sequences of \nrandom numbers",
       ", the commonly used Mersenne Twister \nMT19937 has a sequence length of 219937-1",
-      "\u25aaThe Mersenne Twister is a widely used PRNG, the \nname comes from the period length which is chosen \nto be a Mersenne Prime Number",
-      "\u25aaThe commonly used MT19937 algorithm stores and \ngenerates 624 numbers at a time and can extract them \none by one"
+      "▪The Mersenne Twister is a widely used PRNG, the \nname comes from the period length which is chosen \nto be a Mersenne Prime Number",
+      "▪The commonly used MT19937 algorithm stores and \ngenerates 624 numbers at a time and can extract them \none by one"
     ],
     "revision_tips": [
       "1. Focus on understanding the core formulas and when to use them",
@@ -121,18 +79,23 @@
   "practice_problems": [
     {
       "number": 1,
-      "problem": "Calculate the result when applying Animation to the values 1, 2",
-      "solution": "Refer to the Animation formula: work through step by step"
+      "problem": "Explain in your own words what Animation is and give one small example of where it is used in games/animation.",
+      "solution": "Hint: define Animation in one sentence, then show one application (e.g., using vectors for position or matrices for transforms). Keep it concise."
     },
     {
       "number": 2,
-      "problem": "Explain how Numerical Values differs from Animation",
-      "solution": "Consider the definitions, properties, and applications of each"
+      "problem": "Explain in your own words what Numerical Values is and give one small example of where it is used in games/animation.",
+      "solution": "Hint: define Numerical Values in one sentence, then show one application (e.g., using vectors for position or matrices for transforms). Keep it concise."
     },
     {
       "number": 3,
-      "problem": "Apply Animation to a scenario with game animation",
-      "solution": "Break down the problem using the relevant formula or definition"
+      "problem": "Apply Animation to a short scenario: describe steps to use Animation to solve a problem in 2-3 sentences.",
+      "solution": "Hint: outline steps (identify knowns, choose formula or method, compute, interpret result)."
+    },
+    {
+      "number": 4,
+      "problem": "Apply Numerical Values to a short scenario: describe steps to use Numerical Values to solve a problem in 2-3 sentences.",
+      "solution": "Hint: outline steps (identify knowns, choose formula or method, compute, interpret result)."
     }
   ]
 }

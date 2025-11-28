@@ -7,127 +7,129 @@
   },
   "quiz": [
     {
-      "question": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 3\nMatrices\n\u00a9P?",
+      "question": "Which of the following best describes 'Matrix'?",
       "options": [
-        "A) GAME2016",
-        "B) 1]",
-        "C) Mathematical",
-        "D) Foundation"
+        "A) Vector typically involves magnitude, direction and component.",
+        "B) Numerical Values is an important concept in this lecture.",
+        "C) Coordinate typically involves cartesian, polar and spherical.",
+        "D) Matrix typically involves determinant, inverse and transpose."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Matrix typically involves determinant and inverse and transpose."
     },
     {
-      "question": "This content is copyright protected and shall not be shared, uploaded or distribu ted?",
+      "question": "Which of the following best describes 'Application of Animation'?",
       "options": [
-        "A) is",
-        "B) content",
-        "C) copyright",
-        "D) protected"
+        "A) It is used for coordinate typically involves cartesian, polar and spherical.",
+        "B) It is used for vector typically involves magnitude, direction and component.",
+        "C) It is used for animation typically involves interpolation, keyframe and easing.",
+        "D) It is used for transformation typically involves translation, scaling and shear."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Animation typically involves interpolation and keyframe and easing."
     },
     {
-      "question": "hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaBasic properties and operations of matrices \n\u25aaMathematical perspective?",
+      "question": "Which of the following best describes 'Compare Vector and Transformation'?",
       "options": [
-        "A) Lecturer",
-        "B) Senior",
-        "C) @HKBU",
-        "D) Department"
+        "A) Vector and Transformation are both about numerical values is an important concept in this lecture.",
+        "B) Vector and Transformation are both about animation typically involves interpolation, keyframe and easing.",
+        "C) Vector focuses on vector typically involves magnitude, direction and component. whereas Transformation focuses on transformation typically involves translation, scaling and shear.",
+        "D) Vector and Transformation are both about coordinate typically involves cartesian, polar and spherical."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Vector typically involves magnitude and direction and component. Transformation typically involves translation and scaling and shear."
     },
     {
-      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]\nGAME2016 Mathematical Foundation of Game Design and Animation\n\n[Page 4]\nMatrix?",
+      "question": "Which of the following best describes 'Scenario: Transformation'?",
       "options": [
-        "A) Foundation",
-        "B) Mathematical",
-        "C) of",
-        "D) Game"
+        "A) In a game, Transformation helps to transformation typically involves translation, scaling and shear.",
+        "B) In a game, Transformation helps to vector typically involves magnitude, direction and component.",
+        "C) In a game, Transformation helps to rotation typically involves quaternion, euler angles and axis-angle.",
+        "D) In a game, Transformation helps to matrix typically involves determinant, inverse and transpose."
       ],
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "explanation": "Transformation typically involves translation and scaling and shear."
     },
     {
-      "question": "\u25aaMatrix dimension  is the width  and height  of the \ntable, w x h?",
+      "question": "Which of the following best describes 'Coordinate'?",
       "options": [
-        "A) is",
-        "B) dimension",
-        "C) the",
-        "D) width"
+        "A) Numerical Values is an important concept in this lecture.",
+        "B) Rotation typically involves quaternion, euler angles and axis-angle.",
+        "C) Matrix typically involves determinant, inverse and transpose.",
+        "D) Coordinate typically involves cartesian, polar and spherical."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Coordinate typically involves cartesian and polar and spherical."
     },
     {
-      "question": "\u25aaTypically , we use dimensions 2 x 2 for 2D work, and \n3 x 3 for 3D work?",
+      "question": "Which of the following best describes 'Application of Rotation'?",
       "options": [
-        "A) we",
-        "B) ,",
-        "C) use",
-        "D) dimensions"
+        "A) It is used for animation typically involves interpolation, keyframe and easing.",
+        "B) It is used for numerical values is an important concept in this lecture.",
+        "C) It is used for rotation typically involves quaternion, euler angles and axis-angle.",
+        "D) It is used for matrix typically involves determinant, inverse and transpose."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Rotation typically involves quaternion and euler angles and axis-angle."
     },
     {
-      "question": "\u25aaWe\u2019ll find a use for 4 x 4 matrices also?",
+      "question": "Which of the following best describes 'Compare Numerical Values and Matrix'?",
       "options": [
-        "A) a",
-        "B) find",
-        "C) use",
-        "D) for"
+        "A) Numerical Values and Matrix are both about coordinate typically involves cartesian, polar and spherical.",
+        "B) Numerical Values and Matrix are both about vector typically involves magnitude, direction and component.",
+        "C) Numerical Values and Matrix are both about animation typically involves interpolation, keyframe and easing.",
+        "D) Numerical Values focuses on numerical values is an important concept in this lecture. whereas Matrix focuses on matrix typically involves determinant, inverse and transpose."
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Numerical Values refers to an important concept in this lecture. Matrix typically involves determinant and inverse and transpose."
     },
     {
-      "question": "GAME2016 Mathematical Foundation of Game Design and Animation\n[Page 6]\nMatrix Components\n\u25aaEntries are numbered by row and column\n\u25aaeg?",
+      "question": "Which of the following best describes 'cr = 0'?",
       "options": [
-        "A) Foundation",
-        "B) Mathematical",
-        "C) of",
-        "D) Game"
+        "A) An approximation",
+        "B) A unit conversion",
+        "C) cr = 0",
+        "D) A geometric relation"
       ],
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": ""
     }
   ],
   "summary": {
     "title": "GAME2016 L3 - Matrices.pdf",
-    "overview": "[Page 1]\nGAME2016\nMathematical Foundation of Game \nDesign and Animation\nLecture 3\nMatrices\n\u00a9P. Mengoni, IMD HKBU. All Rights Reserved. This content is copyright protected and shall not be shared, uploaded or distribu ted.Dr. Paolo Mengoni\npmengoni@hkbu.edu.hk\nSenior Lecturer @HKBU Department of Interactive Media\n[Page 2]\nAgenda\n\u25aaBasic properties and operations of matrices \n\u25aaMathematical perspective. \n\u25aaGeometrical perspective.\nGAME2016 Mathematical Foundation of Game Design and Animation\n[Page 3]",
+    "overview": "Lecture: L3 - Matrices. This lecture covers the following key concepts: - Matrix typically involves determinant, inverse and transpose. - Animation typically involves interpolation, keyframe and easing. - Vector typically involves magnitude, direction and component. - Transformation typically involves translation, scaling and shear. - Coordinate typically involves cartesian, polar and spherical. Students should be able to explain these concepts and apply them to simple problems and examples.",
     "key_concepts": [
-      "\u2022 Matrix: determinant, inverse, transpose",
-      "\u2022 Animation: interpolation, keyframe, easing",
-      "\u2022 Vector: magnitude, direction, component",
-      "\u2022 Transformation: translation, scaling, shear",
-      "\u2022 Coordinate: cartesian, polar, spherical",
-      "\u2022 Rotation: quaternion, euler angles, axis-angle",
-      "\u2022 Numerical Values: "
+      "• Matrix: determinant, inverse, transpose",
+      "• Animation: interpolation, keyframe, easing",
+      "• Vector: magnitude, direction, component",
+      "• Transformation: translation, scaling, shear",
+      "• Coordinate: cartesian, polar, spherical",
+      "• Rotation: quaternion, euler angles, axis-angle",
+      "• Numerical Values: "
     ],
     "formulas": [
       "cr = 0",
-      "C = A(BC)",
-      "v = A(Bv)",
-      "B =A(kB)",
+      "C = A(BC",
+      "v = A(Bv",
+      "B =A(kB",
       "C = AB",
       "T = M for all",
       "T = BTAT",
-      "C = [cij], where cij is the dot product of the ith",
+      "C = , where cij is the dot product of the ith",
       "M = vM + wM",
-      "equation as",
       "DT = D for all diagonal matrices D (including the",
-      "aM = b, we say that vector a is transformed  by",
-      "q = [0 1 0]",
-      "\u25aaThen C = [cij], where cij is the dot product of the ith",
-      "q = [qx qy qz]",
-      "r = [0 0 1]",
+      "aM = b, we say that vector a is transformed by",
+      "Then C = , where cij is the dot product of the ith",
       "IM = MI = M for all",
-      "r = [rx ry rz]",
-      "T = MnT \u2026M3TM2TM1T",
-      "V = [ x y z]"
+      "T = MnT …M3TM2TM1T"
     ],
     "applications": [],
     "revision_tips": [
@@ -141,18 +143,23 @@
   "practice_problems": [
     {
       "number": 1,
-      "problem": "Calculate the result when applying Matrix to the values 1, 3",
-      "solution": "Refer to the Matrix formula: work through step by step"
+      "problem": "Given the relation: cr = 0. Provide a short worked approach for applying this relation to a numeric example.",
+      "solution": "Hint: identify variables in the formula, substitute simple integers and evaluate step-by-step. Example: substitute 1 and 2 for variables and compute."
     },
     {
       "number": 2,
-      "problem": "Explain how Animation differs from Vector",
-      "solution": "Consider the definitions, properties, and applications of each"
+      "problem": "Given the relation: C = A(BC. Provide a short worked approach for applying this relation to a numeric example.",
+      "solution": "Hint: identify variables in the formula, substitute simple integers and evaluate step-by-step. Example: substitute 1 and 2 for variables and compute."
     },
     {
       "number": 3,
-      "problem": "Apply Vector to a scenario with game animation",
-      "solution": "Break down the problem using the relevant formula or definition"
+      "problem": "Given the relation: v = A(Bv. Provide a short worked approach for applying this relation to a numeric example.",
+      "solution": "Hint: identify variables in the formula, substitute simple integers and evaluate step-by-step. Example: substitute 1 and 2 for variables and compute."
+    },
+    {
+      "number": 4,
+      "problem": "Given the relation: B =A(kB. Provide a short worked approach for applying this relation to a numeric example.",
+      "solution": "Hint: identify variables in the formula, substitute simple integers and evaluate step-by-step. Example: substitute 1 and 2 for variables and compute."
     }
   ]
 }
